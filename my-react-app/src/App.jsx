@@ -5,11 +5,17 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <h1>here we are</h1>
+      <div className="min-h-screen bg-gray-100 flex justify-center items-center">
+
+      <h1 className="text-4xl font-bold text-blue-600">
+          Hello Tailwind!
+      </h1>
+
+      </div>
     </>
   )
 }
