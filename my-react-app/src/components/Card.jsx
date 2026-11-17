@@ -1,0 +1,37 @@
+import React from 'react'
+function Card({username}) {
+
+
+    return (
+      <>
+         <div className="bg-blue-50 flex justify-center items-center mt-5">
+
+<div className="bg-white p-6 rounded-xl shadow-lg w-80">
+
+  <h1 className="text-2xl font-bold text-center">
+    {username}
+  </h1>
+
+  <p className="text-gray-500 text-center mt-2">
+    MCA Student
+  </p>
+
+  <p className="mt-4">
+    College: MANIT Bhopal
+  </p>
+
+  <p className="mt-2">
+    Skills: Java, React, DSA
+  </p>
+
+  <button className="bg-blue-600 text-white w-full py-2 rounded-lg mt-4 hover:bg-blue-700">
+    View Profile
+  </button>
+
+</div>
+
+</div>
+      </>
+    )
+  }
+  export default Card;
