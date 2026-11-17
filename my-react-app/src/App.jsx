@@ -12,7 +12,7 @@ function App() {
       <div className="min-h-screen bg-gray-100 flex justify-center items-center">
 
       <h1 className="text-4xl font-bold text-blue-600">
-          Hello Tailwind!
+          Hello Tailwind!!
       </h1>
 
       </div>
